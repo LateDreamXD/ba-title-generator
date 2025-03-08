@@ -1,26 +1,37 @@
 {
-	"name": "ba-logo-generator",
-	"private": true,
-	"version": "0.1.0-xsfork",
-	"type": "module",
-	"author": "nulla",
-	"scripts": {
-		"dev": "vite",
-		"build": "tsc && vite build",
-		"preview": "vite preview"
-	},
-	"devDependencies": {
-		"@types/lodash-es": "^4.17.9",
-		"autoprefixer": "^10.4.16",
-		"daisyui": "^4.12.24",
-		"postcss": "^8.5.3",
-		"tailwindcss": "^3.4.16",
-		"typescript": "^5.8.2",
-		"vite": "^6.2.0"
-	},
-	"dependencies": {
-		"i18next": "^24.2.2",
-		"lodash-es": "^4.17.21"
-	},
-	"packageManager": "yarn@1.22.22"
+  "name": "ba-logo-generator",
+  "private": true,
+  "version": "1.0.0+ldpatch",
+  "type": "module",
+  "licenses": [
+    {
+      "type": "MPL-2.0"
+    },
+    {
+      "type": "MIT"
+    }
+  ],
+  "author": "LateDream <latedreamawa@outlook.com> (https://github.com/LateDreamXD)",
+  "contributors": [
+    "nulla <nulla@outlook.com> (https://github.com/nulla2011)",
+    "jozsefsallai <jozsef@sallai.me> (https://github.com/jozsefsallai)"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "sass-embedded": "^1.85.1",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "@picocss/pico": "^2.0.6",
+    "i18next": "^24.2.2",
+    "vue": "^3.5.13"
+  },
+  "packageManager": "yarn@4.7.0"
 }

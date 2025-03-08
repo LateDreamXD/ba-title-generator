@@ -21,22 +21,22 @@
 * [Wêlai Glow Sans Heavy](https://github.com/welai/glow-sans)
 
 <!-- links -->
-[contributors-shield]: https://img.shields.io/github/contributors/XiaozhiSans/ba-title-generator.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/LateDreamXD/ba-title-generator.svg?style=flat-square
 
-[contributors-url]: https://github.com/XiaozhiSans/ba-title-generator/graphs/contributors
+[contributors-url]: https://github.com/LateDreamXD/ba-title-generator/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/XiaozhiSans/ba-title-generator.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/LateDreamXD/ba-title-generator.svg?style=flat-square
 
-[forks-url]: https://github.com/XiaozhiSans/ba-title-generator/network/members
+[forks-url]: https://github.com/LateDreamXD/ba-title-generator/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/XiaozhiSans/ba-title-generator.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/LateDreamXD/ba-title-generator.svg?style=flat-square
 
-[stars-url]: https://github.com/XiaozhiSans/ba-title-generator/stargazers
+[stars-url]: https://github.com/LateDreamXD/ba-title-generator/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/XiaozhiSans/ba-title-generator.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/LateDreamXD/ba-title-generator.svg?style=flat-square
 
-[issues-url]: https://img.shields.io/github/issues/XiaozhiSans/ba-title-generator.svg
+[issues-url]: https://img.shields.io/github/issues/LateDreamXD/ba-title-generator.svg
 
-[license-shield]: https://img.shields.io/github/license/XiaozhiSans/ba-title-generator.svg?style=flat-square
+[license-shield]: https://img.shields.io/github/license/LateDreamXD/ba-title-generator.svg?style=flat-square
 
-[license-url]: https://github.com/XiaozhiSans/ba-title-generator/blob/main/LICENSE
+[license-url]: https://github.com/LateDreamXD/ba-title-generator/blob/main/LICENSE

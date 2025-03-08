@@ -1,0 +1,19 @@
+{
+	"title": "블루 아카이브 타이틀 생성기",
+	"save": "저장",
+	"copy": "복사",
+	"general": "일반 옵션",
+	"transparent-background": "투명 배경",
+	"swap-colors": "색상 반전",
+	"dark-mode": "다크 모드",
+	"advance": "고급 옵션",
+	"halo-cross": "후광 오프셋",
+	"accent-color": "강조 색상",
+	"sub-text-size": "부제목 글자 크기",
+	"font-title": "사용된 폰트",
+	"main-font": "주요 폰트: ",
+	"fallback-font": "대체 폰트: ",
+	"glow": "미래형 블랙",
+	"github-repo": "GitHub 저장소",
+	"special-thanks": "특별 감사"
+}

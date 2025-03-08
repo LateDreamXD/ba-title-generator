@@ -1,0 +1,19 @@
+{
+	"title": "ブルーアーカイブ タイトルジェネレーター",
+	"save": "保存",
+	"copy": "コピー",
+	"general": "一般オプション",
+	"transparent-background": "透明背景",
+	"swap-colors": "色反転",
+	"dark-mode": "ダークモード",
+	"advance": "詳細オプション",
+	"halo-cross": "光輪オフセット",
+	"accent-color": "アクセントカラー",
+	"sub-text-size": "サブタイトルフォントサイズ",
+	"font-title": "使用フォント",
+	"main-font": "メインフォント: ",
+	"fallback-font": "フォールバックフォント: ",
+	"glow": "ヒカリ角ゴ",
+	"github-repo": "GitHub リポジトリ",
+	"special-thanks": "特別な感謝"
+}

@@ -2,19 +2,18 @@
 	"title": "蔚蓝档案标题生成器",
 	"save": "保存",
 	"copy": "复制",
-	"copy-success": "复制成功!",
+	"general": "常规选项",
 	"transparent-background": "透明背景",
 	"swap-colors": "颜色反转",
 	"dark-mode": "黑暗模式",
 	"advance": "高级选项",
 	"halo-cross": "光环偏移",
-	"accent-color": "强 调 色",
+	"accent-color": "强调色",
+	"sub-text-size": "副标题字号",
 	"font-title": "使用的字体",
 	"main-font": "主要字体: ",
 	"fallback-font": "回退字体: ",
 	"glow": "未来荧黑",
 	"github-repo": "GitHub 仓库",
-	"special-thanks": "特别感谢",
-	"original-repo": "原始仓库: ",
-	"forked-repo": "分支仓库: "
+	"special-thanks": "特别感谢"
 }

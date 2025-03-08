@@ -1,0 +1,190 @@
+@use "@picocss/pico/scss" with (
+	$enable-semantic-container: true,
+	$parent-selector: ".pico",
+	$modules: (
+		"content/code": false,
+		"forms/input-color": false,
+		"forms/input-date": false,
+		"forms/input-file": false,
+		"forms/input-range": false,
+		"forms/input-search": false,
+		"components/accordion": false,
+		"components/card": false,
+		"components/dropdown": false,
+		"components/loading": false,
+		"components/modal": false,
+		"components/nav": false,
+		"components/progress": false,
+		"components/tooltip": false,
+		"utilities/accessibility": false,
+		"utilities/reduce-motion": false
+	)
+);
+
+:root {
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+
+	--mobile-background-color: rgba(245, 245, 245, 0.8);
+}
+
+a[role="button"] {
+	text-decoration: none;
+}
+
+a:not([role="button"]) {
+	position: relative;
+	text-decoration: none;
+	&:hover {
+		&::before {
+			width: 100%;
+		}
+	}
+	&::before {
+		content: '';
+		position: absolute;
+		display: block;
+		height: 2px;
+		left: 0;
+		width: 0;
+		bottom: 0;
+		transition: width 0.4s ease-in-out;
+		background-color: var(--pico-primary-underline);
+	}
+	&[target="_blank"]::after {
+		content: ' ↗️'
+	}
+}
+
+body {
+	height: 100vh;
+	background: fixed url('./assets/image/BG_AronaRoom_In.jpg') no-repeat center center / cover;
+}
+
+.window {
+	position: fixed;
+	border: 1px solid var(--pico-primary-border);
+	border-radius: 8px;
+	&>.header {
+		display: inline-flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		width: 100%;
+		color: var(--pico-primary-inverse);
+		background-color: var(--pico-primary);
+		padding: 8px;
+		border-radius: 8px 8px 0 0;
+		-webkit-user-select: none;
+		user-select: none;
+		&>.title {
+			font-size: 24px;
+		}
+		&>.actions {
+			&>a[role="button"] {
+				color: var(--pico-primary-inverse);
+				background-color: transparent;
+				transition: color 0.2s;
+				&:not(:last-child) {
+					margin-right: 4px;
+				}
+				&:hover {
+					color: var(--pico-primary-hover);
+				}
+				&>.icon {
+					width: 24px;
+					height: 24px;
+				}
+			}
+		}
+	}
+	&>.body {
+		width: 100%;
+		background-color: var(--pico-background-color);
+		border-radius: 0 0 8px 8px;
+		overflow: auto;
+	}
+}
+
+#preview {
+	left: 100px;
+	&>.body {
+		padding: 0;
+	}
+}
+
+#main, #thanks {
+	top: 400px;
+	width: 500px;
+	left: 100px;
+	&>.body {
+		height: calc(100vh - 500px);
+		&>.edit-group:not(:nth-child(1)) {
+			margin-top: 0.4rem;
+		}
+	}
+}
+
+#thanks {
+	left: 640px;
+}
+
+.title {
+	color: var(--pico-h1-color);
+	font-size: 1.2em;
+	font-weight: bold;
+	display: block;
+}
+
+.not-allowed {
+	color: gray !important;
+	cursor: not-allowed !important;
+}
+
+.mobile-only {display: none;}
+
+@media screen and (prefers-color-scheme: dark) {
+	:root {
+		--mobile-background-color: rgba(30, 30, 30, 0.8);
+	}
+	body {
+		background-image: url('./assets/image/BG_AronaRoom_Night.jpg');
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#mobile-title {
+		color: var(--pico-primary);
+		font-size: 135%;
+		text-align: center;
+	}
+
+	body {
+		height: auto;
+		font-size: 120%;
+		overflow: auto;
+	}
+	.window {
+		padding: 0;
+		position: static;
+		&>.header {
+			display: none;
+		}
+		&>.body {
+			border-radius: 0;
+			background-color: var(--mobile-background-color);
+		}
+	}
+	#main, #thanks {
+		width: 100vw;
+		&>.body {
+			height: auto;
+			overflow: hidden;
+		}
+	}
+
+	.mobile-only {display: block;}
+}
