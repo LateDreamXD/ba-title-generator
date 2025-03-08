@@ -11,8 +11,9 @@
 
 </span>
 
-> [!IMPORTANT]
-> This project is [jozsefsallai/ba-logo-generator](https://github.com/jozsefsallai/ba-logo-generator/tree/feature/more-customization)'s fork. And the original project is [nulla2011/Bluearchive-logo](https://github.com/nulla2011/Bluearchive-logo).
+> [!NOTE]
+> This repo is a fork of [fork](https://github.com/jozsefsallai/ba-logo-generator/tree/feature/more-customization).  
+> The original repo is [nulla2011/Bluearchive-logo](https://github.com/nulla2011/Bluearchive-logo).
 
 ## Used Fonts
 
