@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@picocss/pico": "^2.1.1",
-    "i18next": "^25.0.0",
+    "i18next": "^25.0.1",
     "vue": "^3.5.13"
   },
   "packageManager": "yarn@4.7.0"
