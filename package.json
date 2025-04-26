@@ -1,7 +1,7 @@
 {
   "name": "ba-logo-generator",
   "private": true,
-  "version": "1.0.0+ldpatch",
+  "version": "1.0.1+ldpatch",
   "type": "module",
   "licenses": [
     {
