@@ -614,7 +614,7 @@ __metadata:
     "@picocss/pico": "npm:^2.1.1"
     "@types/node": "npm:^22.15.3"
     "@vitejs/plugin-vue": "npm:^5.2.3"
-    i18next: "npm:^25.0.2"
+    i18next: "npm:^25.1.1"
     sass-embedded: "npm:^1.87.0"
     typescript: "npm:^5.8.3"
     vite: "npm:^6.3.4"
@@ -983,9 +983,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:^25.0.2":
-  version: 25.0.2
-  resolution: "i18next@npm:25.0.2"
+"i18next@npm:^25.1.1":
+  version: 25.1.1
+  resolution: "i18next@npm:25.1.1"
   dependencies:
     "@babel/runtime": "npm:^7.26.10"
   peerDependencies:
@@ -993,7 +993,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/1f09bce7fa620c26e107c42a356c7e968fedd1f4df948ab5b9c885b3b5abf52113aba4b0042c00e2fadd0ce732ee3e25d994d595215e874136343684c78ce608
+  checksum: 10c0/0a4ce474c57bb207031bc3ab874877fb1ab9c60f740488e39d65079fb760813096f30de692b904ca39f368cada9705d32f5cdf439c088817e5285cef2bb45e37
   languageName: node
   linkType: hard
 
