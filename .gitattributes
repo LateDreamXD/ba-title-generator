@@ -1,4 +1,6 @@
 public/* linguist-vendored
 
+*.vue linguist-language=TypeScript
 *.html linguist-language=Other
 *.css linguist-language=Other
+*.scss linguist-language=Other
