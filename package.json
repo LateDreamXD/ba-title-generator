@@ -22,7 +22,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@types/node": "^22.15.17",
+    "@types/node": "^22.15.18",
     "@vitejs/plugin-vue": "^5.2.4",
     "sass-embedded": "^1.88.0",
     "typescript": "^5.8.3",
